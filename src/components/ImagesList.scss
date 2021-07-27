@@ -1,0 +1,13 @@
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 2rem;
+    &-image {
+        height: 25rem;
+        margin-top: 1rem;
+        margin-right: 2rem;
+        flex-grow: 1;
+        object-fit: cover;
+    }
+}
